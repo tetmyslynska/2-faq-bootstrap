@@ -1,0 +1,20 @@
+hr{
+    width: 200px;
+    margin: 20px auto;
+}
+
+.accordion-button{
+    background-color: rgb(235, 242, 245);
+    display: block;
+    text-align: center;
+}
+
+.accordion-button:hover,
+.accordion-button:focus{
+    text-decoration: underline;
+}
+
+.accordion-button::after{
+    display: none;
+}
+
