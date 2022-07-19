@@ -7,11 +7,14 @@ hr{
     background-color: rgb(235, 242, 245);
     display: block;
     text-align: center;
+    
+    color:red;
 }
 
 .accordion-button:hover,
 .accordion-button:focus{
     text-decoration: underline;
+    color:black;
 }
 
 .accordion-button::after{
