@@ -21,3 +21,7 @@ hr{
     display: none;
 }
 
+
+.accordion-button:not(.collapsed){
+    color: red;
+}
